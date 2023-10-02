@@ -1,0 +1,53 @@
+#box1{
+    border: 5px solid;
+    width: 500px;
+    height: 100px;
+    font-size: 70PX;
+    font-weight: bold;
+    text-decoration: chartreuse;
+    text-align: center;
+    background-color: aquamarine;
+    color: blueviolet;
+    margin-top: 300px;
+    margin-left: 400px;
+    align-items: center;
+
+
+    animation: rotating;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-play-state: running;
+    animation-timing-function: ease;
+}
+
+@keyframes sliding {
+    from{margin-left: 85%;}
+    to{margin-right: 0%;}
+    
+}
+
+@keyframes rotating {
+    100%{
+        transform: rotateX(90deg);
+        transform: rotateY(360deg);
+        /* transform: rotateZ(360deg); */
+    }
+}
+
+@keyframes opacity {
+    95%{opacity: 50%;}
+}
+
+@keyframes scaling {
+    30%{
+        transform: scale(0.5,0.5);
+    }
+}
+
+@keyframes color {
+    20%{background-color: red;}
+    40%{background-color: pink;}
+    60%{background-color: green;}
+    80%{background-color: lawngreen;}
+}

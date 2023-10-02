@@ -1,0 +1,98 @@
+#headers{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: blue dotted underline;
+    margin: 10px;
+    border: 3px solid red;
+    width: 500px;
+    margin-left: 400px;
+    height: 200px;
+
+}
+
+h1{
+    color: darkslateblue;
+    font-size: 68px;
+    font-weight: bolder;
+    top: 0px;
+}
+
+h4{
+    color: deeppink;
+    font-size: 34px;
+    position: relative;
+    top: 0px;
+    display:block;
+
+}
+
+#dice{
+    text-align: center;
+    display: block;
+    margin-top: 10%;
+    position: relative;
+}
+body{
+    background-image: url("/images/dice-game-random-good-luck.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.rules{
+    border: 2px solid greenyellow;
+    width: 250px;
+    height: 180px;
+    background-color: lightblue;
+    clear: both;
+    float: left;
+    Position: absolute; 
+Bottom: 0; 
+margin: auto;
+top: 25%;
+bottom: 55%;
+
+    
+
+}
+h6{
+    size: 2px;
+    color: rgb(117, 8, 81);
+    
+}
+
+p{
+    font-size: 13px;
+}
+
+#small{
+    font-size: 15px;
+}
+
+html{
+    background-size: 100%;
+}
+
+#image1{
+    /* animation: rounds;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite; */
+}
+
+#image2{
+    //animation: rounds;
+    display: inline-block;
+}
+
+
+
+@keyframes rounds {
+    100%{
+        transform: rotateX(360deg);
+    }
+}
